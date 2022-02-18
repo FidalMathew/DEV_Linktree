@@ -1,0 +1,31 @@
+.Register {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.formdiv {
+  width: 35em;
+  box-shadow: 0px 3px 8px #000000;
+  padding: 35px;
+}
+.Register_btn {
+  height: 48px;
+  border-radius: 12px;
+  width: 100%;
+  font-size: 18px;
+  border: white;
+
+  color: rgb(255, 255, 255);
+  background: rgb(117, 81, 233);
+}
+
+.Register_btn:hover {
+  background: rgb(84 55 177);
+}
+
+@media screen and (max-width: 400px) {
+  .formdiv {
+    width: 22em;
+  }
+}

@@ -1,0 +1,77 @@
+.Usercontainer {
+  padding: 0 15% 10% 15%;
+  background-image: linear-gradient(#da4df1, #9ac8f0);
+  color: white;
+  background-repeat: no-repeat;
+  overflow: auto;
+  height: 90%;
+}
+
+.R_Usercontainer {
+  padding: 0 27% 10% 27%;
+  background-image: linear-gradient(#da4df1, #9ac8f0);
+  color: white;
+  background-repeat: no-repeat;
+  overflow: auto;
+  height: 100vh;
+}
+
+.userimg {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 4px solid #3e0343;
+}
+
+.LinkButton {
+  margin-top: 10px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.LinkButton:hover {
+  background: white;
+  color: #834c9d !important ;
+  cursor: pointer;
+}
+.LinkButton:hover a {
+  color: #834c9d;
+}
+
+.Blogs {
+  border: 2px solid white;
+  width: 96%;
+}
+
+.Dropdown {
+  background: white;
+  color: #834c9d;
+  margin-top: 10px;
+  padding: 6px;
+}
+
+.links a {
+  /* color: #834c9d; */
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #094492;
+  text-decoration: none;
+}
+
+h5 a {
+  color: white;
+}
+
+@media screen and (max-width: 770px) {
+  .R_Usercontainer {
+    padding: 0 7% 10% 7%;
+  }
+}

@@ -1,0 +1,52 @@
+.Home {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+h1 {
+  font-size: 2.2rem;
+}
+.home_content {
+  width: 96vw;
+  height: 90vh;
+  box-shadow: 0px 3px 8px #000000;
+
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 20px;
+}
+button {
+  border-radius: 12px;
+  font-size: 18px;
+  border: white;
+  padding: 3px 12px 3px 12px;
+  color: rgb(255, 255, 255);
+  background: rgb(117, 81, 233);
+}
+
+button:hover {
+  background: rgb(84 55 177);
+}
+
+span {
+  cursor: pointer;
+}
+span:hover {
+  text-decoration: underline;
+}
+
+img {
+  margin-top: 3%;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: 2em;
+  }
+}

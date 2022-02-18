@@ -1,0 +1,19 @@
+.notfound_page {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.notfound_page div {
+  text-align: center;
+  color: black;
+  background-color: white;
+  padding: 10%;
+}
+
+h2 {
+  color: #575757;
+}
+.not_found_button {
+  margin: 5%;
+}
